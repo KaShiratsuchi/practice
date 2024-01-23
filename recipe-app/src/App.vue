@@ -1,0 +1,29 @@
+
+<template>
+  <div class="container">
+    <InputArea/>
+    <!-- <OutputArea/> -->
+  </div>
+</template>
+
+<script setup>
+ /* eslint-disable */
+import InputArea from './components/InputArea.vue'
+import OutputArea from './components/OutputArea.vue'
+
+</script>
+
+<style>
+#app {
+  font-family: Avenir, Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-align: center;
+  color: #2c3e50;
+  margin-top: 60px;
+}
+.container {
+  width: 100%;
+  /* display: flex; */
+}
+</style>
