@@ -13,7 +13,10 @@ import OutputArea from './components/OutputArea.vue'
 
 </script>
 
-<style>
+<style >
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
@@ -23,7 +26,6 @@ import OutputArea from './components/OutputArea.vue'
   margin-top: 60px;
 }
 .container {
-  width: 100%;
   /* display: flex; */
 }
 </style>
