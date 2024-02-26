@@ -1,8 +1,8 @@
 
 <template>
-  <div class="container ">
+  <div class="container flex m-auto gap-4">
     <InputArea/>
-    <!-- <OutputArea/> -->
+    <OutputArea/>
   </div>
 </template>
 
