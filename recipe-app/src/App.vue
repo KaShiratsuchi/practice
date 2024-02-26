@@ -1,6 +1,6 @@
 
 <template>
-  <div class="container">
+  <div class="container ">
     <InputArea/>
     <!-- <OutputArea/> -->
   </div>
