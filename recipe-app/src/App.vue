@@ -2,7 +2,7 @@
 <template>
   <div class="container flex m-auto gap-4">
     <InputArea/>
-    <OutputArea/>
+    <!-- <OutputArea/> -->
   </div>
 </template>
 
@@ -17,8 +17,9 @@ import OutputArea from './components/OutputArea.vue'
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100..900&display=swap');
 #app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
+  font-family: "Noto Sans JP", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
