@@ -1,6 +1,6 @@
 
 <template>
-  <div class="container flex m-auto gap-4">
+  <div class="container m-auto gap-4">
     <InputArea/>
     <!-- <OutputArea/> -->
   </div>
